@@ -1,4 +1,4 @@
-# NewsApp
+## NewsApp
 Version: 1
 
 News App is part of my certification course at udacity. 
