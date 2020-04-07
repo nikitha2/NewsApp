@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NewsCovid19</string>
+    <string name="app_name">NewsApp</string>
     <string name="topStories">Top Stories</string>
     <string name="contentPage">Top Stories Content</string>
     <string name="noData">No News found </string>
