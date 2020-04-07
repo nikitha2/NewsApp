@@ -43,8 +43,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //populatedData= populatData(populatedData);
-
         GridView view=findViewById(R.id.gridView1);
         arrayListHighlightsAdaptor=new ArrayListHighlightsAdaptor(this,populatedData);
         view.setAdapter(arrayListHighlightsAdaptor);
