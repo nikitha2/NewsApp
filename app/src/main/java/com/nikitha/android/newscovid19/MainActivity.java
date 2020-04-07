@@ -97,9 +97,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         uriBuilder.appendQueryParameter("q", "coronovirus");
         uriBuilder.appendQueryParameter("api-key", "54edbbdc-691d-464c-acf2-94839f637510");
         uriBuilder.appendQueryParameter("show-tags", "contributor");
-
-
-        // uriBuilder.appendQueryParameter("orderby", "time");
         ConnectionManager=(ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
         networkInfo=ConnectionManager.getActiveNetworkInfo();
         if(networkInfo!=null){
