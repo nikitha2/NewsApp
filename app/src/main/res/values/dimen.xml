@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="heightImage">88dp</dimen>
+    <dimen name="heightTitle">32dp</dimen>
+    <dimen name="heightSource">16dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="textSizeTitle">20sp</dimen>
+
+</resources>
