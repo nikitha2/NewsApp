@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     ConnectivityManager ConnectionManager;
 
     String url1="http://content.guardianapis.com/search?";
-            //"http://content.guardianapis.com/search?q=coronovirus&api-key=test";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,9 +90,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
         // buildUpon prepares the baseUri that we just parsed so we can add query parameters to it
         Uri.Builder uriBuilder = baseUri.buildUpon();
-        //"q=coronovirus&api-key=test";
-
-        // Append query parameter and its value. For example, the `format=geojson`
         uriBuilder.appendQueryParameter("q", "coronovirus");
         uriBuilder.appendQueryParameter("api-key", "54edbbdc-691d-464c-acf2-94839f637510");
         uriBuilder.appendQueryParameter("show-tags", "contributor");
